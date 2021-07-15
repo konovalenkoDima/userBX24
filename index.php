@@ -1,6 +1,5 @@
 <?php
 require_once ('vendor/autoload.php');
-require_once ('database.php');
 require_once ('Controller.php');
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
@@ -8,7 +7,7 @@ use Monolog\Handler\StreamHandler;
 
 
 //add new record to DB
-$addRecord = setCredentials($link);
+
 
 
 $params = getCredentials($link);

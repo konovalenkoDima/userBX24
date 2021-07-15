@@ -1,3 +1,9 @@
+<?php
+require_once 'Controller.php';
+
+$addRecord = setCredentials($link);
+
+?>
 <head>
     <script src="//api.bitrix24.com/api/v1/"></script>
     <script>
