@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mesilov/bitrix24-php-sdk": "^0.7.0",
+        "monolog/monolog": "^2.3",
+        "php-console/php-console": "^3.1"
+    }
+}
